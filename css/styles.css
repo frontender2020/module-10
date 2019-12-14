@@ -151,9 +151,9 @@ img {
 
 /* section features */
 
-.section {
+/* .section {
     margin-bottom: 120px;
-}
+} */
 
 .features {
     display: flex;
@@ -199,7 +199,6 @@ img {
 .feature__item {
     width: 330px;
     display: flex;
-    /* padding: 30px 0; */
     margin-bottom: 35px;
 }
 
@@ -433,4 +432,39 @@ img {
 .footer__form-btn:hover {
     background-color: #74c6b7;
     transition: all 0.2s linear;
+}
+
+/* MEDIA */
+
+@media (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+
+    .header {
+        background-image: linear-gradient(to bottom, rgba(232, 129, 130, 0.9), rgba(240, 209, 137, 0.9)),
+        url('../img/banner@2x.jpg');
+    }
+
+    .feature__icon--alarm {
+        background: url('../img/icons/ALARM@2x.png') no-repeat;
+    }
+
+    .feature__icon--linegraph {
+        background: url('../img/icons/LINE_GRAPH@2x.png') no-repeat;
+    }
+
+    .feature__icon--computer {
+        background: url('../img/icons/COMPUTER@2x.png') no-repeat;
+    }
+
+    .feature__icon--book {
+        background: url('../img/icons/BOOK@2x.png') no-repeat;
+    }
+
+    .feature__icon--home {
+        background: url('../img/icons/HOME@2x.png') no-repeat;
+    }
+
+    .feature__icon--image {
+        background: url('../img/icons/IMAGE@2x.png') no-repeat;
+    }
 }
