@@ -29,11 +29,12 @@ img {
         url('../img/banner.jpg');
     background-image:
         -o-linear-gradient(top, rgba(232, 129, 130, 0.9), rgba(240, 209, 137, 0.9)),
-        url('../img/banner.jpg');
+        url('../img/banner.jpg');   
     background-image:
         linear-gradient(to bottom, rgba(232, 129, 130, 0.9), rgba(240, 209, 137, 0.9)),
         url('../img/banner.jpg');
     height: 1000px;
+    background-size: cover;   
 }
 
 .nav {
@@ -158,7 +159,6 @@ img {
     font-size: 150px;
     font-weight: 700;
     line-height: 140px;
-    text-transform: uppercase;
 }
 
 .offer__link {
