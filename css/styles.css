@@ -34,7 +34,8 @@ img {
         linear-gradient(to bottom, rgba(232, 129, 130, 0.9), rgba(240, 209, 137, 0.9)),
         url('../img/banner.jpg');
     height: 1000px;
-    background-size: cover;   
+    background-size: cover; 
+    background-position: center;  
 }
 
 .nav {
