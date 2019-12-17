@@ -183,7 +183,7 @@ img {
     transition: all 0.2s linear;
 }
 
-/* section features */
+/* SECTION FEATURES */
 
 .features {
     display: -webkit-box;
@@ -233,39 +233,15 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 35px;
+    margin-bottom: 80px;
 }
 
-.feature__icon::before {
-    content: '';
+svg.feature__icon {
     display: block;
-    width: 64px;
-    height: auto;
+    width: 65px;
+    height: 32px;
+    fill: #95e1d3;
     margin-right: 25px;
-}
-
-.feature__icon--alarm::before {
-    background: url('../img/icons/ALARM.png') no-repeat;
-}
-
-.feature__icon--linegraph::before {
-    background: url('../img/icons/LINE_GRAPH.png') no-repeat;
-}
-
-.feature__icon--computer::before {
-    background: url('../img/icons/COMPUTER.png') no-repeat;
-}
-
-.feature__icon--book::before {
-    background: url('../img/icons/BOOK.png') no-repeat;
-}
-
-.feature__icon--home::before {
-    background: url('../img/icons/HOME.png') no-repeat;
-}
-
-.feature__icon--image::before {
-    background: url('../img/icons/IMAGE.png') no-repeat;
 }
 
 .feature__name {
@@ -530,29 +506,5 @@ img {
             url('../img/banner@2x.jpg');
         background-image: linear-gradient(to bottom, rgba(232, 129, 130, 0.9), rgba(240, 209, 137, 0.9)),
             url('../img/banner@2x.jpg');
-    }
-
-    .feature__icon--alarm {
-        background: url('../img/icons/ALARM@2x.png') no-repeat;
-    }
-
-    .feature__icon--linegraph {
-        background: url('../img/icons/LINE_GRAPH@2x.png') no-repeat;
-    }
-
-    .feature__icon--computer {
-        background: url('../img/icons/COMPUTER@2x.png') no-repeat;
-    }
-
-    .feature__icon--book {
-        background: url('../img/icons/BOOK@2x.png') no-repeat;
-    }
-
-    .feature__icon--home {
-        background: url('../img/icons/HOME@2x.png') no-repeat;
-    }
-
-    .feature__icon--image {
-        background: url('../img/icons/IMAGE@2x.png') no-repeat;
     }
 }
